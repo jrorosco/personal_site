@@ -1,0 +1,28 @@
+{{ "<!-- Header -->" | safeHTML }}
+<header id="header">
+	<a href="{{ .Site.BaseURL }}" class="image avatar"><img src="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" alt="" /></a>
+	{{ with .Site.Params.sidebar.bio }}
+		<h1>{{ . | markdownify }}</h1>
+	{{ end }}
+
+	<div style="margin: 0 0 0 0.5em;">
+		<ul class="icons">
+				{{ with .Site.Params.contact.email }}
+					<li>
+						<a href="{{ $.Site.BaseURL }}#contact-form" class="icon fa-envelope-o" style="color: #d2d2d2";><span class="label">Email</span></a>
+					</li>
+				{{ end }}
+				<li>
+					<a href="mailto:sms@jeremyorosco.com" class="icon fa-mobile" style="color: #d2d2d2";><span class="label">Email</span></a>
+				</li>
+				<li>
+					<a href="{{ $.Site.BaseURL }}files/jeremy_orosco.pdf" class="icon fa-mortar-board" style="color: #d2d2d2";><span class="label">Email</span></a>
+				</li>
+				{{ with .Site.Params.sidebar.github }}
+					<li>
+						<a href="//github.com/{{ . }}" target="_blank" class="icon fa-github" style="color: #d2d2d2";><span class="label">GitHub</span></a>
+					</li>
+				{{ end }}
+		</ul>
+	</div>
+</header>

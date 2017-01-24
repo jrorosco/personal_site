@@ -1,0 +1,20 @@
+{{ "<!-- portfolio -->" | safeHTML }}
+<section>
+	<header class="major">
+		{{ with .Site.Params.portfolio.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	</header>
+	{{ with .Site.Params.portfolio.content }}<p>{{ . | markdownify }}</p>{{ end }}
+	{{ range .Site.Params.portfolio.gallery }}
+		<div class="row">
+			<div class="col-xs-4" style="margin-right: -7em;">
+					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb }}" alt=""/></div>
+			</div>
+			<div class="col-xs-8" style="margin-right: -8em;">
+					<h3><a href={{ .doi_url }} style="font-size:0.8em;">{{ .title | markdownify }}</a></h3>
+					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author | markdownify }} ({{ .year | markdownify }})</h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description | markdownify }}</p>
+					<h4><a href={{ .doi_url }}>doi</a> | <a href={{ .pdf_url }}>pdf</a> | <a href={{ .bib_url }}>bibtex</a></h4>
+			</div>
+		</div>
+	{{ end }}
+</section>

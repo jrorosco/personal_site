@@ -1,0 +1,134 @@
+baseurl = "http://acsweb.ucsd.edu/~jrorosco/"
+languageCode = "en-us"
+title = "Hi, I'm Jeremy Orosco"
+disqusShortname = ""
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# Metadata
+	name = "Jeremy Orosco"
+	description = "This is a personal website for Jeremy Orosco, a graduate student at UC San Diego.."
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "me.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**Jeremy Orosco**"
+		# The icons will be shown if you enter your username
+		twitter = ""
+		email="jrorosco@eng.ucsd.edu"
+		github = "jrorosco"
+		gitlab = ""
+		dribbble = ""
+		facebook = ""
+		googleplus = ""
+		flickr = ""
+		linkedin = ""
+
+		copyright = [
+			"&copy; Jeremy Orosco",
+			"Design: [HTML5 UP](//html5up.net)",
+			"See also: [dplarson](http://ieng6.ucsd.edu/~dplarson/), [jbarron](https://people.eecs.berkeley.edu/~barron/)"
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "**Hi, I'm Jeremy.**"
+		content = "I am a Ph.D. student in the [department of mechanical and aerospace engineering](http://maeweb.ucsd.edu/) at the University of California, San Diego, where I am advised by [Carlos Coimbra](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=324) and funded by the [San Diego Fellowship](https://grad.ucsd.edu/financial/fellowships/entering-students/sd-fellowship.html). I love all things science, but I am especially interested in problem solving with the use of math, physics, and a hard-earned intuition about physical systems. I have a B.S. (2014) and an M.S. (2016) in mechanical engineering, both from UC San Diego. <br><br> I joined the [Coimbra Energy Group](http://coimbra.ucsd.edu/) (CEG) during my junior year of undergraduate study in 2011, and since then I have been involved with a number of research projects such as resource to power modeling for large-scale solar power plants and the development of low cost, rapidly deployable, self-sustaining [portable weather sensing stations](https://photos.google.com/share/AF1QipNpTO-wg1ZiwnDZPU1G_ZM6gj0-huyLOT3A2zw23cqiHEN935GVEvDb94tqdPFl2Q?key=anBRQm9pblp3dVBNMGl6SVZpWWh3LUs2VjZfUDN3). Somtimes, [I](https://youtu.be/HZC7KEO-Fjc?t=46) [build](https://www.youtube.com/watch?v=AT6fh77XeX8) [robots](https://www.youtube.com/watch?v=z70l3OUy9N4). Over the Summer and Spring of 2016, I spent time working on cutting edge semiconductor chip manufacturing technology at [Cymer/ASML](https://www.cymer.com/).<br><br> Outside of research, I occasionally mentor undergraduate students on their journey toward postgraduate study through the [STARS](https://grad.ucsd.edu/degrees/summer-researches/stars/index.html) program. In the past I have also worked with the [IDEA Scholars](http://jacobsschool.ucsd.edu/idea/programs/scholars.shtml) program and with highschool outreach through the CEG."
+
+
+	[params.portfolio]
+		hide  = false
+		title = "My research..."
+		content = "...takes place in the space of nonlocal operators and variable order dynamics. I am interested in identification, control, and stabiity; nonlinear/nonconvex optimization; and fluid mechanical systems.<br><br> Currently, my research efforts are directed toward the development of efficient numerical methods for the solution of variable order differential equations and the description of anomalous electromagnetic dispersion dynamics using generalized variable order models."
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			thumb = "thumbs/on_the_control_2016.gif"
+			title = "On the control and stability of variable-order mechanical systems."
+			author = "Orosco, Jeremy and C.F.M. Coimbra"
+			year = 2016
+			doi_url = "http://link.springer.com/article/10.1007/s11071-016-2916-9"
+			pdf_url = "files/2016_Orosco_Coimbra.pdf"
+			bib_url = "files/2016_Orosco_Coimbra.bib"
+			description = "Modern control methods are extended for use with a nonlinear system of<br>variable order differential equations. An analytical expression is derived for<br>the dependence of the closed-loop stability on the variable order damping."
+
+	[params.recentposts]
+		hide  = true
+		title = "Recent blog posts"
+
+	[params.rss]
+		hide = true
+
+	[params.contact]
+		hide  = false
+		title = "Get in touch."
+		content = "Say hi, ask a question, inquire about collaboration, or just ponder philosophically..."
+
+		#address = [
+		#	"1234 Somewhere Rd.",
+		#	"Nashville, TN 00000",
+		#	"United States"
+		#]
+		#phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "jrorosco@eng.ucsd.edu"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "home"
+	url  = "/"
+	weight = 0
+
+[[menu.main]]
+	name = "cv"
+	url  = "files/jeremy_orosco.pdf"
+	weight = 10
+
+[[menu.main]]
+	name = "email"
+	url = ""
+	weight = 20
+
+[[menu.main]]
+	name = "sms"
+	url="mailto:sms@jeremyorosco.com"
+	weight = 30
+
+#[[menu.main]]
+#	name = "Blog"
+#	url  = "post/"
+#	weight = 10
