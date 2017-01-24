@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Hi, I'm Jeremy Orosco"
 disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-90760467-1"
 # Define how many posts should appear on a site
 paginate = 10
 
