@@ -10,7 +10,7 @@ paginate = 10
 [params]
 	# Metadata
 	name = "Jeremy Orosco"
-	description = "This is a personal website for Jeremy Orosco, a graduate student at UC San Diego.."
+	description = "This is a personal website for Jeremy Orosco, a graduate student at UC San Diego."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -59,7 +59,7 @@ paginate = 10
 		[[params.portfolio.gallery]]
 			thumb = "thumbs/on_the_control_2016.gif"
 			title = "On the control and stability of variable-order mechanical systems."
-			author = "Orosco, Jeremy and C.F.M. Coimbra"
+			author = "Jeremy Orosco and C.F.M. Coimbra"
 			year = 2016
 			doi_url = "http://link.springer.com/article/10.1007/s11071-016-2916-9"
 			pdf_url = "files/2016_Orosco_Coimbra.pdf"

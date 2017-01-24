@@ -1,4 +1,6 @@
-{{ define "main" }}
+{{ partial "header.html" . }}
+{{ partial "subheader.html" . }}
+<section id="main">
     <h1>Page not found</h1>
 
     <p>Uh-oh, you seem to have taken a wrong turn! It looks like this was the result of either:</p>
@@ -10,4 +12,6 @@
     </ul>
 
     <p>I suggest that you head to my <a href="{{ .Site.BaseURL }}">Home</a>     page from here.</p>
-{{ end }}
+</section>
+{{ partial "footer.html" . }}
+
