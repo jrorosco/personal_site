@@ -5,22 +5,27 @@
 		<h1>{{ . | markdownify }}</h1>
 	{{ end }}
 
-	<div style="margin: 0 0 0 0.5em;">
+
+
+	<div style="margin: 0 0 0 0.3em;">
 		<ul class="icons">
 				{{ with .Site.Params.contact.email }}
 					<li>
-						<a href="{{ $.Site.BaseURL }}#contact-form" class="icon fa-envelope-o" style="color: #d2d2d2";><span class="label">Email</span></a>
+						<a href="{{ $.Site.BaseURL }}#contact-form" class="icon fa-envelope-o" style="color: #d2d2d2; font-size:1.2em;"><span class="label">email</span></a>
 					</li>
 				{{ end }}
 				<li>
-					<a href="mailto:sms@jeremyorosco.com" class="icon fa-mobile" style="color: #d2d2d2";><span class="label">Email</span></a>
+					<a href="mailto:sms@jeremyorosco.com?subject=Website SMS:" class="icon fa-commenting-o" style="color: #d2d2d2; font-size:1.3em;"><span class="label">sms</span></a>
 				</li>
 				<li>
-					<a href="{{ $.Site.BaseURL }}files/jeremy_orosco.pdf" class="icon fa-mortar-board" style="color: #d2d2d2";><span class="label">Text</span></a>
+					<a href="{{ $.Site.BaseURL }}files/jeremy_orosco.pdf" class="icon fa-file-text-o" style="color: #d2d2d2; font-size:1.05em;"><span class="label">cv</span></a>
+				</li>
+				<li>
+					<a href="https://scholar.google.com/citations?user=oxkIbncAAAAJ&hl=en&oi=ao" class="icon fa-mortar-board" style="color: #d2d2d2; font-size:1.05em;"><span class="label">cv</span></a>
 				</li>
 				{{ with .Site.Params.sidebar.github }}
 					<li>
-						<a href="//github.com/{{ . }}" target="_blank" class="icon fa-github" style="color: #d2d2d2";><span class="label">GitHub</span></a>
+						<a href="//github.com/{{ . }}" target="_blank" class="icon fa-github" style="color: #d2d2d2; font-size:1.2em;"><span class="label">github</span></a>
 					</li>
 				{{ end }}
 		</ul>
