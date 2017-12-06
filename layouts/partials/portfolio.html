@@ -7,13 +7,24 @@
 	{{ range .Site.Params.portfolio.gallery }}
 		<div class="row">
 			<div class="col-xs-4" style="margin-right: -7em;">
-					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb }}" alt=""/></div>
+					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb1 }}" alt=""/></div>
 			</div>
 			<div class="col-xs-8" style="margin-right: -8em;">
-					<h3><a href={{ .doi_url }} style="font-size:0.8em;">{{ .title | markdownify }}</a></h3>
-					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author | markdownify }} ({{ .year | markdownify }})</h4>
-					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description | markdownify }}</p>
-					<h4><a href={{ .doi_url }}>doi</a> | <a href={{ .pdf_url }}>pdf</a> | <a href={{ .bib_url }}>bibtex</a></h4>
+					<h3><a href={{ .doi_url1 }} style="font-size:0.8em;">{{ .title1 | markdownify }}</a></h3>
+					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author1 | markdownify }} ({{ .year1 | markdownify }})</h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description1 | markdownify }}</p>
+					<h4><a href={{ .doi_url1 }}>doi</a> | <a href={{ .pdf_url1 }}>pdf</a> | <a href={{ .bib_url1 }}>bibtex</a></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4" style="margin-right: -7em;">
+					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb2 }}" alt=""/></div>
+			</div>
+			<div class="col-xs-8" style="margin-right: -8em;">
+					<h3><a href={{ .doi_url2 }} style="font-size:0.8em;">{{ .title2a | markdownify }}<span style = "display: block; margin-bottom: 0.5em;line-height: 0.9em">{{ .title2b | markdownify }}</span></a></h3>
+					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author2 | markdownify }} ({{ .year2 | markdownify }})</h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description2 | markdownify }}</p>
+					<h4><a href={{ .doi_url2 }}>doi</a> | <a href={{ .pdf_url2 }}>pdf</a> | <a href={{ .bib_url2 }}>bibtex</a></h4>
 			</div>
 		</div>
 	{{ end }}

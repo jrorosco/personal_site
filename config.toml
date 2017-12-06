@@ -45,25 +45,38 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "**Hi, I'm Jeremy.**"
-		content = "I'm a Ph.D. student in the [department of mechanical and aerospace engineering](http://maeweb.ucsd.edu/) at the [University of California, San Diego](http://ucsd.edu), where I am advised by [Carlos Coimbra](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=324) and funded by the [San Diego Fellowship](https://grad.ucsd.edu/financial/fellowships/entering-students/sd-fellowship.html). I love all things science, but I'm especially interested in problem solving with the use of math, physics, and a hard-earned intuition about physical systems. I have a B.S. (2014) and an M.S. (2016) in mechanical engineering, both from UC San Diego. <br><br> I joined the [Coimbra Energy Group](http://coimbra.ucsd.edu/) (CEG) during my junior year of undergraduate study in 2012, and since then I have been involved with a number of research projects such as resource to power modeling for large-scale solar power plants and the development of low cost, rapidly deployable, self-sustaining [portable weather sensing stations](https://photos.google.com/share/AF1QipNpTO-wg1ZiwnDZPU1G_ZM6gj0-huyLOT3A2zw23cqiHEN935GVEvDb94tqdPFl2Q?key=anBRQm9pblp3dVBNMGl6SVZpWWh3LUs2VjZfUDN3). Sometimes, [I](https://youtu.be/HZC7KEO-Fjc?t=46) [build](https://www.youtube.com/watch?v=AT6fh77XeX8) [robots](https://www.youtube.com/watch?v=z70l3OUy9N4). Over the Summer and Fall of 2016, I spent time working on cutting edge semiconductor chip manufacturing technology at [Cymer/ASML](https://www.cymer.com/).<br><br> Outside of research, I occasionally mentor undergraduate students on their journey toward postgraduate study through the [STARS](https://grad.ucsd.edu/degrees/summer-researches/stars/index.html) program. In the past I have also worked with the [IDEA Scholars](http://jacobsschool.ucsd.edu/idea/programs/scholars.shtml) program and with high school outreach through the CEG."
+		content = "I'm a Ph.D. student in the [department of mechanical and aerospace engineering](http://maeweb.ucsd.edu/) at the [University of California, San Diego](http://ucsd.edu), where I am advised by [Carlos Coimbra](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=324) and funded by the [San Diego Fellowship](https://grad.ucsd.edu/financial/fellowships/entering-students/sd-fellowship.html). I love all things science, but I'm especially interested in problem solving with the use of math, physics, and a hard-earned intuition about physical systems. I have a B.S. (2014) and an M.S. (2016) in mechanical engineering, both from UC San Diego. <br><br> I joined the [Coimbra Research Group](http://coimbra.ucsd.edu/) (CRG) during my junior year of undergraduate study in 2012, and since then I have been involved with a number of research projects such as resource to power modeling for large-scale solar power plants and the development of low cost, rapidly deployable, self-sustaining [portable weather sensing stations](https://photos.google.com/share/AF1QipNpTO-wg1ZiwnDZPU1G_ZM6gj0-huyLOT3A2zw23cqiHEN935GVEvDb94tqdPFl2Q?key=anBRQm9pblp3dVBNMGl6SVZpWWh3LUs2VjZfUDN3). Sometimes, I build robots [[1](https://youtu.be/HZC7KEO-Fjc?t=46), [2](https://www.youtube.com/watch?v=AT6fh77XeX8), [3](https://www.youtube.com/watch?v=z70l3OUy9N4)]. Over the Summer and Fall of 2016, I spent time working on cutting edge semiconductor chip manufacturing technology at [Cymer/ASML](https://www.cymer.com/).<br><br> Outside of research, I occasionally mentor undergraduate students on their journey toward postgraduate study through the [STARS](https://grad.ucsd.edu/degrees/summer-researches/stars/index.html) and [UC LEADS](http://grad.ucsd.edu/degrees/summer-researches/uc-leads/program-objectives.html) programs. In the past I have also worked with the [IDEA Scholars](http://jacobsschool.ucsd.edu/idea/programs/scholars.shtml) program and with high school outreach through the CRG."
 
 
 	[params.portfolio]
 		hide  = false
 		title = "My research..."
-		content = "...takes place in the space of nonlocal operators and variable order dynamics. I am interested in identification, control, and stability; nonlinear/nonconvex optimization; and fluid mechanical systems.<br><br> Currently, my research efforts are directed toward the development of efficient numerical methods for the solution of variable order differential equations and the description of anomalous electromagnetic dispersion dynamics using generalized variable order models."
+		content = "...takes place in the space of nonlocal operators and variable order dynamics. My interests include identification, control, and stability; nonlinear/nonconvex optimization; and fluid mechanical systems.<br><br> Currently, my research efforts are directed toward the development of efficient numerical methods for the solution of variable order differential equations and the description of anomalous electromagnetic dispersion dynamics using generalized variable order models."
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			thumb = "thumbs/on_the_control_2016.gif"
-			title = "On the control and stability of variable-order mechanical systems."
-			author = "Jeremy Orosco and C.F.M. Coimbra"
-			year = 2016
-			doi_url = "http://link.springer.com/article/10.1007/s11071-016-2916-9"
-			pdf_url = "files/2016_Orosco_Coimbra.pdf"
-			bib_url = "files/2016_Orosco_Coimbra.bib"
-			description = "Modern control methods are extended for use with a nonlinear system of<br>variable order differential equations. An analytical expression is derived for<br>the dependence of the closed-loop stability on the variable order damping."
+
+			# Nonlinear Dynamics (2016)
+			thumb1 = "thumbs/image1.png"
+			title1 = "On the control and stability of variable-order mechanical systems"
+			author1 = "J. Orosco and C.F.M. Coimbra"
+			year1 = 2016
+			doi_url1 = "http://link.springer.com/article/10.1007/s11071-016-2916-9"
+			pdf_url1 = "files/2016_Orosco_Coimbra.pdf"
+			bib_url1 = "files/2016_Orosco_Coimbra.bib"
+			description1 = "Modern control methods are extended for use with a nonlinear system of<br>variable order differential equations. An analytical expression is derived for<br>the dependence of the closed-loop stability on the variable order damping."
+
+			# Forthcoming (2017)
+			# thumb2 = "thumbs/blank.png"
+			title2a = ""
+			title2b =  ""
+			# author2 = ""
+			# year2 = 2017
+			# doi_url2 = "http://acsweb.ucsd.edu/~jrorosco/"
+			# pdf_url2 = ""
+			# bib_url2 = ""
+			# description2 = "Forthcoming."
 
 	[params.recentposts]
 		hide  = true
