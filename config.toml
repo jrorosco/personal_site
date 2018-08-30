@@ -58,49 +58,70 @@ paginate = 10
 		[[params.portfolio.gallery]]
 
 			# forthcoming
+			thumb6 = "thumbs/image6.png"
+			title6 = "Thermophysical Modeling for the Infrared Radiative Dynamics of Hot Metals"
+			author6 = "J. Orosco and C. F. M. Coimbra"
+			journal6 = ""
+			year6 = "in preparation: 40%"
+			doi_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
+			pdf_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
+			bib_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
+			description6 = ""
+
+			# forthcoming
+			thumb5 = "thumbs/image5.png"
+			title5 = "Nonequilibrium Statistical Dynamics of Anomalous Intraband Emission in Metals"
+			author5 = "J. Orosco and C.F.M. Coimbra"
+			journal5 = ""
+			year5 = "in preparation: 75%"
+			doi_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
+			pdf_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
+			bib_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
+			description5 = ""
+
+			# Physical Review E (2018)
 			thumb4 = "thumbs/image4.png"
-			title4 = "Variable Order Spectroscopic Analysis for Radiative Dispersion"
-			author4 = "J. Orosco and C.F.M. Coimbra"
-			journal4 = ""
-			year4 = "in preparation"
-			doi_url4 = "http://acsweb.ucsd.edu/~jrorosco/"
+			title4 = "Variable Order Modeling of Nonlocal Emergence in Many-body Systems: Application to Radiative Dispersion"
+			author4 = "J. Orosco and C. F. M. Coimbra"
+			journal4 = "Physical Review E"
+			year4 = "in press"
+			doi_url4 = "https://journals.aps.org/pre/accepted/f907dRabHb116f1278613953d8f3195c7c63a17be"
 			pdf_url4 = "http://acsweb.ucsd.edu/~jrorosco/"
-			bib_url4 = "http://acsweb.ucsd.edu/~jrorosco/"
-			description4 = ""
+			bib_url4 = "files/2018c_Orosco_Coimbra.bib"
+			description4 = "A generalized spectroscopic analysis framework is derived within the formalism of variable order calculus. The framework is applied to the analysis and modeling of emergent temporally nonlocal effects in many-body condensed matter systems. Application of the analysis is facilitated by a novel radiative model and both  are validated in a multi-objetive setting."
 
 			# Applied Optics (2018)
 			thumb3 = "thumbs/image3.png"
-			title3a = "On a causal dispersion model for the optical properties"
-			title3b = "of thin metallic films"
-			author3 = "J. Orosco and C.F.M. Coimbra"
+			title3 = "On a causal dispersion model for the optical properties of metals"
+			author3 = "J. Orosco and C. F. M. Coimbra"
 			journal3 = "Applied Optics"
-			year3 = "in press"
-			doi_url3 = "http://acsweb.ucsd.edu/~jrorosco/"
+			year3 = 2018
+			doi_url3 = "https://doi.org/10.1364/AO.57.005333"
 			pdf_url3 = "files/2018b_Orosco_Coimbra.pdf"
-			bib_url3 = "http://acsweb.ucsd.edu/~jrorosco/"
-			description3 = "A KKR-compliant model is proposed for the interband electron dynamics<br>of thin metallic films. A reductive procedure for the optimal fitting of optical <br>data is proposed. The resulting parameterizations represent a significant<br>improvement over previously proposed, KKR-noncompliant models."
+			bib_url3 = "files/2018b_Orosco_Coimbra.bib"
+			description3 = "A KKR-compliant model is proposed for the interband electron dynamics of thin metallic films. A reductive procedure for the optimal fitting of optical data is proposed. Resulting parameterizations for eleven metals common to engineering applications represent a significant improvement over previously proposed, KKR-noncompliant models."
 
 			# Physical Review B (2018)
 			thumb2 = "thumbs/image2.png"
 			title2 = "Optical response of thin amorphous films to infrared radiation"
-			author2 = "J. Orosco and C.F.M. Coimbra"
+			author2 = "J. Orosco and C. F. M. Coimbra"
 			journal2 = "Physical Review B"
 			year2 = 2018
 			doi_url2 = "https://doi.org/10.1103/PhysRevB.97.094301"
 			pdf_url2 = "files/2018a_Orosco_Coimbra.pdf"
 			bib_url2 = "files/2018a_Orosco_Coimbra.bib"
-			description2 = "A novel Kramers-Kronig consistent model is proposed for the electric<br>susceptibility of solid media. The model accurately reproduces the<br>broadened non-Lorentzian absorption peaks observed in the optical<br>response of amorphous dielectric solids."
+			description2 = "A novel Kramers-Kronig consistent model is proposed for the electric susceptibility of solid media. The model accurately reproduces the broadened non-Lorentzian absorption peaks observed in the optical response of amorphous dielectric solids."
 
 			# Nonlinear Dynamics (2016)
 			thumb1 = "thumbs/image1.png"
 			title1 = "On the control and stability of variable-order mechanical systems"
-			author1 = "J. Orosco and C.F.M. Coimbra"
+			author1 = "J. Orosco and C. F. M. Coimbra"
 			journal1 = "Nonlinear Dynamics"
 			year1 = 2016
 			doi_url1 = "https://doi.org/10.1007/s11071-016-2916-9"
 			pdf_url1 = "files/2016_Orosco_Coimbra.pdf"
 			bib_url1 = "files/2016_Orosco_Coimbra.bib"
-			description1 = "Modern control methods are extended for use with a nonlinear system of<br>variable order differential equations. An analytical expression is derived for<br>the dependence of the closed-loop stability on the variable order damping."
+			description1 = "Modern control methods are extended for use with a nonlinear system of variable order differential equations. An analytical expression is derived for the dependence of the closed-loop stability on the variable order damping."
 
 	[params.recentposts]
 		hide  = true

@@ -7,12 +7,34 @@
 	{{ range .Site.Params.portfolio.gallery }}
 		<div class="row">
 			<div class="col-xs-4" style="margin-right: -7em;">
+					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb6 }}" alt=""/></div>
+			</div>
+			<div class="col-xs-8" style="margin-right: -8em;">
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url6 }} style="font-size:0.8em;">{{ .title6 | markdownify }}</a></h3>
+					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author6 | markdownify }} ({{ .year6 | markdownify }}), {{ .journal6 | markdownify }}</h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description6 | markdownify }}</p>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url6 }}>doi</a> | <a href={{ .pdf_url6 }}>pdf</a> | <a href={{ .bib_url6 }}>bibtex</a></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4" style="margin-right: -7em;">
+					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb5 }}" alt=""/></div>
+			</div>
+			<div class="col-xs-8" style="margin-right: -8em;">
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url5 }} style="font-size:0.8em;">{{ .title5 | markdownify }}</a></h3>
+					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author5 | markdownify }} ({{ .year5 | markdownify }}), {{ .journal5 | markdownify }}</h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description5 | markdownify }}</p>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url5 }}>doi</a> | <a href={{ .pdf_url5 }}>pdf</a> | <a href={{ .bib_url5 }}>bibtex</a></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4" style="margin-right: -7em;">
 					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb4 }}" alt=""/></div>
 			</div>
 			<div class="col-xs-8" style="margin-right: -8em;">
-					<h3><a href={{ .doi_url4 }} style="font-size:0.8em;">{{ .title4 | markdownify }}</a></h3>
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url4 }} style="font-size:0.8em;">{{ .title4 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author4 | markdownify }} ({{ .year4 | markdownify }}), {{ .journal4 | markdownify }}</h4>
-					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description4 | markdownify }}</p>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description4 | markdownify }}</p>
 					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url4 }}>doi</a> | <a href={{ .pdf_url4 }}>pdf</a> | <a href={{ .bib_url4 }}>bibtex</a></h4>
 			</div>
 		</div>
@@ -21,11 +43,10 @@
 					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb3 }}" alt=""/></div>
 			</div>
 			<div class="col-xs-8" style="margin-right: -8em;">
-					<h3 style="margin-bottom: -0.35em"><a href={{ .doi_url3 }} style="font-size:0.8em;">{{ .title3a | markdownify }}</a></h3>
-					<h3><a href={{ .doi_url3 }} style="font-size:0.8em;">{{ .title3b | markdownify }}</a></h3>
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url3 }} style="font-size:0.8em;">{{ .title3 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author3 | markdownify }} ({{ .year3 | markdownify }}), {{ .journal3 | markdownify }}</h4>
-					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description3 | markdownify }}</p>
-					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url3 }}>doi</a> | <a href={{ .pdf_url3 }}>preprint</a> | <a href={{ .bib_url3 }}>bibtex</a></h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description3 | markdownify }}</p>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url3 }}>doi</a> | <a href={{ .pdf_url3 }}>pdf</a> | <a href={{ .bib_url3 }}>bibtex</a></h4>
 			</div>
 		</div>
 		<div class="row">
@@ -33,9 +54,9 @@
 					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb2 }}" alt=""/></div>
 			</div>
 			<div class="col-xs-8" style="margin-right: -8em;">
-					<h3><a href={{ .doi_url2 }} style="font-size:0.8em;">{{ .title2 | markdownify }}</a></h3>
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url2 }} style="font-size:0.8em;">{{ .title2 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author2 | markdownify }} ({{ .year2 | markdownify }}), {{ .journal2 | markdownify }}</h4>
-					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description2 | markdownify }}</p>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description2 | markdownify }}</p>
 					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url2 }}>doi</a> | <a href={{ .pdf_url2 }}>pdf</a> | <a href={{ .bib_url2 }}>bibtex</a></h4>
 			</div>
 		</div>
@@ -44,9 +65,9 @@
 					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb1 }}" alt=""/></div>
 			</div>
 			<div class="col-xs-8" style="margin-right: -8em;">
-					<h3><a href={{ .doi_url1 }} style="font-size:0.8em;">{{ .title1 | markdownify }}</a></h3>
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url1 }} style="font-size:0.8em;">{{ .title1 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author1 | markdownify }} ({{ .year1 | markdownify }}), {{ .journal1 | markdownify }}</h4>
-					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;">{{ .description1 | markdownify }}</p>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description1 | markdownify }}</p>
 					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url1 }}>doi</a> | <a href={{ .pdf_url1 }}>pdf</a> | <a href={{ .bib_url1 }}>bibtex</a></h4>
 			</div>
 		</div>
