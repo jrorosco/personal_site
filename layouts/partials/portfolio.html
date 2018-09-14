@@ -6,10 +6,10 @@
 	{{ with .Site.Params.portfolio.content }}<p>{{ . | markdownify }}</p>{{ end }}
 	{{ range .Site.Params.portfolio.gallery }}
 		<div class="row">
-			<div class="col-xs-4" style="margin-right: -7em;">
-					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb6 }}" alt=""/></div>
+			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb6 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb6 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
-			<div class="col-xs-8" style="margin-right: -8em;">
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
 					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url6 }} style="font-size:0.8em;">{{ .title6 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author6 | markdownify }} ({{ .year6 | markdownify }}), {{ .journal6 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description6 | markdownify }}</p>
@@ -17,21 +17,21 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-4" style="margin-right: -7em;">
-					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb5 }}" alt=""/></div>
+			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb5 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb5 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
-			<div class="col-xs-8" style="margin-right: -8em;">
-					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url5 }} style="font-size:0.8em;">{{ .title5 | markdownify }}</a></h3>
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
+					<h3 style="max-width: 22em; line-height: 1em;margin-bottom: 0.5em;"><a href={{ .doi_url5 }} style="font-size:0.8em;">{{ .title5 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author5 | markdownify }} ({{ .year5 | markdownify }}), {{ .journal5 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description5 | markdownify }}</p>
 					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url5 }}>doi</a> | <a href={{ .pdf_url5 }}>pdf</a> | <a href={{ .bib_url5 }}>bibtex</a></h4>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-4" style="margin-right: -7em;">
-					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb4 }}" alt=""/></div>
+			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb4 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb4 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
-			<div class="col-xs-8" style="margin-right: -8em;">
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
 					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url4 }} style="font-size:0.8em;">{{ .title4 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author4 | markdownify }} ({{ .year4 | markdownify }}), {{ .journal4 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description4 | markdownify }}</p>
@@ -39,10 +39,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-4" style="margin-right: -7em;">
-					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb3 }}" alt=""/></div>
+			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb3 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb3 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
-			<div class="col-xs-8" style="margin-right: -8em;">
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
 					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url3 }} style="font-size:0.8em;">{{ .title3 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author3 | markdownify }} ({{ .year3 | markdownify }}), {{ .journal3 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description3 | markdownify }}</p>
@@ -50,10 +50,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-4" style="margin-right: -7em;">
-					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb2 }}" alt=""/></div>
+			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb2 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb2 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
-			<div class="col-xs-8" style="margin-right: -8em;">
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
 					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url2 }} style="font-size:0.8em;">{{ .title2 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author2 | markdownify }} ({{ .year2 | markdownify }}), {{ .journal2 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description2 | markdownify }}</p>
@@ -61,10 +61,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-4" style="margin-right: -7em;">
-					<div class="image fit thumb"><img src="{{ $.Site.BaseURL }}images/{{ .thumb1 }}" alt=""/></div>
+			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb1 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb1 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
-			<div class="col-xs-8" style="margin-right: -8em;">
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
 					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url1 }} style="font-size:0.8em;">{{ .title1 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author1 | markdownify }} ({{ .year1 | markdownify }}), {{ .journal1 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description1 | markdownify }}</p>
