@@ -45,7 +45,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "**Hi, I'm Jeremy.**"
-		content = "I'm a Ph.D. candidate in the [department of mechanical and aerospace engineering](http://maeweb.ucsd.edu/) at the [University of California San Diego](http://ucsd.edu). My research is advised by [Carlos Coimbra](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=324) and funded by the [San Diego Fellowship](https://grad.ucsd.edu/financial/fellowships/entering-students/sd-fellowship.html) and the [President's Dissertation Year Fellowship](https://grad.ucsd.edu/financial/fellowships/presidents-dissertation-year-fellowships.html). During my time with the [Coimbra Research Group](http://coimbra.ucsd.edu/) (CRG) I have been involved with a number of research projects such as resource to power modeling for large-scale solar power plants and the development of low-cost, rapidly deployable, self-sustaining [portable weather sensing stations](https://photos.google.com/share/AF1QipNpTO-wg1ZiwnDZPU1G_ZM6gj0-huyLOT3A2zw23cqiHEN935GVEvDb94tqdPFl2Q?key=anBRQm9pblp3dVBNMGl6SVZpWWh3LUs2VjZfUDN3). Sometimes I build robots [[1](https://youtu.be/HZC7KEO-Fjc?t=46), [2](https://www.youtube.com/watch?v=AT6fh77XeX8), [3](https://www.youtube.com/watch?v=z70l3OUy9N4)]. Over the Summer and Fall of 2016, I spent time working on bleeding edge semiconductor chip manufacturing technology at [Cymer/ASML](https://www.cymer.com/).<br><br> Outside of research, I mentor undergraduate students on their journey toward postgraduate study through the [STARS](https://grad.ucsd.edu/degrees/summer-researches/stars/index.html) and [UC LEADS](http://grad.ucsd.edu/degrees/summer-researches/uc-leads/program-objectives.html) programs. In the past I have also worked with the [IDEA Scholars](http://jacobsschool.ucsd.edu/idea/programs/scholars.shtml) program and with high school outreach through the CRG."
+		content = "I'm a Ph.D. candidate in the [department of mechanical and aerospace engineering](http://maeweb.ucsd.edu/) at the [University of California San Diego](http://ucsd.edu). My research is advised by [Carlos Coimbra](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=324) and funded by the [San Diego Fellowship](https://grad.ucsd.edu/diversity/incoming-fellowships/sdf-cr-fellowships.html) and the [President's Dissertation Year Fellowship](https://grad.ucsd.edu/financial/fellowships/funding-opportunties/presidents-dissertation-year-fellowship-fletcher-jones.html). During my time with the [Coimbra Research Group](http://coimbra.ucsd.edu/) (CRG) I have been involved with a number of research projects such as resource to power modeling for large-scale solar power plants and the development of low-cost, rapidly deployable, self-sustaining [portable weather sensing stations](https://photos.google.com/share/AF1QipNpTO-wg1ZiwnDZPU1G_ZM6gj0-huyLOT3A2zw23cqiHEN935GVEvDb94tqdPFl2Q?key=anBRQm9pblp3dVBNMGl6SVZpWWh3LUs2VjZfUDN3). Sometimes I build robots [[1](https://youtu.be/HZC7KEO-Fjc?t=46), [2](https://www.youtube.com/watch?v=AT6fh77XeX8), [3](https://www.youtube.com/watch?v=z70l3OUy9N4)]. Over the Summer and Fall of 2016, I spent time working on bleeding edge semiconductor chip manufacturing technology at [Cymer/ASML](https://www.cymer.com/).<br><br> Outside of research, I mentor undergraduate students on their journey toward postgraduate study through the [STARS](https://grad.ucsd.edu/diversity/programs/stars/index.html) and [UC LEADS](https://www.ucop.edu/graduate-studies/initiatives-outreach/uc-leads.html) programs. In the past I have also worked with the [IDEA Scholars](http://jacobsschool.ucsd.edu/idea/programs/scholars.shtml) program and with high school outreach through the CRG."
 
 
 	[params.portfolio]
@@ -59,10 +59,10 @@ paginate = 10
 
 			# forthcoming
 			thumb6 = "thumbs/paper_thumb_6.png"
-			title6 = "Thermophysical Modeling for the Infrared Radiative Dynamics of Hot Metals"
+			title6 = "Thermophysical Model for Mid-infrared Optical and Radiative Properties of Metals"
 			author6 = "J. Orosco and C. F. M. Coimbra"
 			journal6 = ""
-			year6 = "in preparation: 40%"
+			year6 = "in preparation: 75%"
 			doi_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
 			pdf_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
 			bib_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
@@ -70,10 +70,10 @@ paginate = 10
 
 			# forthcoming
 			thumb5 = "thumbs/paper_thumb_5.png"
-			title5 = "Anomalous Electron Transport Model for the Determination of Broadband Infrared Absorption in Metals"
+			title5 = "Anomalous Carrier Transport Model for Broadband Infrared Absorption in Metals"
 			author5 = "J. Orosco and C. F. M. Coimbra"
 			journal5 = ""
-			year5 = "in preparation: 90%"
+			year5 = "under review"
 			doi_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
 			pdf_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
 			bib_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
@@ -88,7 +88,7 @@ paginate = 10
 			doi_url4 = "https://doi.org/10.1103/PhysRevE.98.032208"
 			pdf_url4 = "files/2018c_Orosco_Coimbra.pdf"
 			bib_url4 = "files/2018c_Orosco_Coimbra.bib"
-			description4 = "A generalized spectroscopic analysis framework is derived within the formalism of variable order calculus. The framework is applied to the analysis and modeling of emergent temporally nonlocal effects in many-body condensed matter systems. Application of the analysis is facilitated by a novel radiative model and both  are validated in a multi-objetive setting."
+			description4 = "A generalized spectroscopic analysis framework is derived within the formalism of variable order calculus. The framework is applied to the analysis and modeling of emergent temporally nonlocal effects in many-body condensed matter systems. Application of the analysis is facilitated by a novel radiative model and both  are validated in a multi-objective setting."
 
 			# Applied Optics (2018)
 			thumb3 = "thumbs/paper_thumb_3.png"
