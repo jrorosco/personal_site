@@ -7,6 +7,17 @@
 	{{ range .Site.Params.portfolio.gallery }}
 		<div class="row">
 			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb7 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb7 }}" alt="" style="max-width: 20em;"/></a>
+			</div>
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url7 }} style="font-size:0.8em;">{{ .title7 | markdownify }}</a></h3>
+					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author7 | markdownify }} ({{ .year7 | markdownify }}), {{ .journal7 | markdownify }}</h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description7 | markdownify }}</p>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url7 }}>doi</a> | <a href={{ .pdf_url7 }}>pdf</a> | <a href={{ .bib_url7 }}>bibtex</a></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4" style="margin-left: 0.1em;">
 					<a href="{{ $.Site.BaseURL }}images/{{ .thumb6 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb6 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
 			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
@@ -24,7 +35,7 @@
 					<h3 style="max-width: 22em; line-height: 1em;margin-bottom: 0.5em;"><a href={{ .doi_url5 }} style="font-size:0.8em;">{{ .title5 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author5 | markdownify }} ({{ .year5 | markdownify }}), {{ .journal5 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description5 | markdownify }}</p>
-					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url5 }}>doi</a> | <a href={{ .pdf_url5 }}>pdf</a> | <a href={{ .bib_url5 }}>bibtex</a></h4>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url5 }}>doi</a> | <a href={{ .pdf_url5 }}>preprint</a> | <a href={{ .bib_url5 }}>bibtex</a></h4>
 			</div>
 		</div>
 		<div class="row">

@@ -58,26 +58,37 @@ paginate = 10
 		[[params.portfolio.gallery]]
 
 			# forthcoming
+			thumb7 = "thumbs/paper_thumb_7.png"
+			title7 = "Thermophysical model for the infrared optical and radiative properties of metals"
+			author7 = "J. Orosco and C. F. M. Coimbra"
+			journal7 = ""
+			year7 = "forthcoming: 25%"
+			doi_url7 = "http://acsweb.ucsd.edu/~jrorosco/"
+			pdf_url7 = "http://acsweb.ucsd.edu/~jrorosco/"
+			bib_url7 = "http://acsweb.ucsd.edu/~jrorosco/"
+			description7 = ""
+
+			# AIAA's SciTech Forum
 			thumb6 = "thumbs/paper_thumb_6.png"
-			title6 = "Thermophysical Model for Mid-infrared Optical and Radiative Properties of Metals"
+			title6 = "Thermophysical model for the infrared emissivity of metals"
 			author6 = "J. Orosco and C. F. M. Coimbra"
-			journal6 = ""
-			year6 = "in preparation: 75%"
+			journal6 = "AIAA SciTech Conference"
+			year6 = "accepted"
 			doi_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
 			pdf_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
 			bib_url6 = "http://acsweb.ucsd.edu/~jrorosco/"
 			description6 = ""
 
-			# forthcoming
+			# Physical Review B (2018)
 			thumb5 = "thumbs/paper_thumb_5.png"
-			title5 = "Anomalous Carrier Transport Model for Broadband Infrared Absorption in Metals"
+			title5 = "Anomalous carrier transport model for broadband infrared absorption in metals"
 			author5 = "J. Orosco and C. F. M. Coimbra"
-			journal5 = ""
-			year5 = "under review"
+			journal5 = "Physical Review B"
+			year5 = "accepted"
 			doi_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
-			pdf_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
-			bib_url5 = "http://acsweb.ucsd.edu/~jrorosco/"
-			description5 = ""
+			pdf_url5 = "files/2018d_preprint_Orosco_Coimbra.pdf"
+			bib_url5 = "files/2018d_Orosco_Coimbra.bib"
+			description5 = "A robust, high fidelity model is derived for correlating measurements of the broadband infrared optical response of metals. Anomalous dynamics are introduced as a correction to the local field that accounts for diffusive perturbations subscribing to a non-Markovian relaxation. Examples are given for several metals of engineering significance."
 
 			# Physical Review E (2018)
 			thumb4 = "thumbs/paper_thumb_4.png"
@@ -88,7 +99,7 @@ paginate = 10
 			doi_url4 = "https://doi.org/10.1103/PhysRevE.98.032208"
 			pdf_url4 = "files/2018c_Orosco_Coimbra.pdf"
 			bib_url4 = "files/2018c_Orosco_Coimbra.bib"
-			description4 = "A generalized spectroscopic analysis framework is derived within the formalism of variable order calculus. The framework is applied to the analysis and modeling of emergent temporally nonlocal effects in many-body condensed matter systems. Application of the analysis is facilitated by a novel radiative model and both  are validated in a multi-objective setting."
+			description4 = "A generalized spectroscopic analysis framework is derived within the formalism of variable-order calculus. The framework is applied for analysis and modeling of emergent temporally nonlocal effects in many-body condensed matter systems. A sample application is demonstrated. Validation is obtained in a multi-objective (optical and radiative) setting."
 
 			# Applied Optics (2018)
 			thumb3 = "thumbs/paper_thumb_3.png"
@@ -99,7 +110,7 @@ paginate = 10
 			doi_url3 = "https://doi.org/10.1364/AO.57.005333"
 			pdf_url3 = "files/2018b_Orosco_Coimbra.pdf"
 			bib_url3 = "files/2018b_Orosco_Coimbra.bib"
-			description3 = "A KKR-compliant model is proposed for the interband electron dynamics of thin metallic films. A reductive procedure for the optimal fitting of optical data is proposed. Resulting parameterizations for eleven metals common to engineering applications represent a significant improvement over previously proposed, KKR-noncompliant models."
+			description3 = "A KKR-compliant model with tunable Gaussian-Lorentzian character is proposed for interband electron dynamics. Optimal regression of the model from complex-valued data is achieved using a novel reductive procedure. Validation performed for eleven metals demonstrates a significant improvement over previously proposed, KKR-noncompliant models."
 
 			# Physical Review B (2018)
 			thumb2 = "thumbs/paper_thumb_2.png"
@@ -110,7 +121,7 @@ paginate = 10
 			doi_url2 = "https://doi.org/10.1103/PhysRevB.97.094301"
 			pdf_url2 = "files/2018a_Orosco_Coimbra.pdf"
 			bib_url2 = "files/2018a_Orosco_Coimbra.bib"
-			description2 = "A novel Kramers-Kronig consistent model is proposed for the electric susceptibility of solid media. The model accurately reproduces the broadened non-Lorentzian absorption peaks observed in the optical response of amorphous dielectric solids."
+			description2 = "A Kramers-Kronig consistent model is proposed for the relative permittivity of dielectric solids. The model accurately reproduces the convolved Gaussian-Lorentzian absorption peaks observed in the optical response of amorphous media. Results indicate a performance commensurate with previously proposed, KKR-noncompliant models."
 
 			# Nonlinear Dynamics (2016)
 			thumb1 = "thumbs/paper_thumb_1.png"
@@ -121,7 +132,7 @@ paginate = 10
 			doi_url1 = "https://doi.org/10.1007/s11071-016-2916-9"
 			pdf_url1 = "files/2016_Orosco_Coimbra.pdf"
 			bib_url1 = "files/2016_Orosco_Coimbra.bib"
-			description1 = "Modern control methods are extended for use with a nonlinear system of variable order differential equations. An analytical expression is derived for the dependence of the closed-loop stability on the variable order damping."
+			description1 = "Modern control methods are extended for use with a nonlinear system of variable-order differential equations. An analytical expression is derived for the dependence of the closed-loop stability on the variable order damping. Numerical simulations demonstrate the efficacy of the control solution and confirm the predictive validity of the stability equation."
 
 	[params.recentposts]
 		hide  = true
