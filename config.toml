@@ -81,7 +81,7 @@ paginate = 10
 
 			# AIAA's SciTech Forum
 			thumb6 = "thumbs/paper_thumb_6.png"
-			title6 = "Thermophysical model for the Infrared Emissivity of Metals"
+			title6 = "Thermophysical model for the infrared emissivity of metals"
 			author6 = "J. Orosco and C. F. M. Coimbra"
 			journal6 = "AIAA SciTech Forum: Paper and Presentation"
 			year6 = "2019"
