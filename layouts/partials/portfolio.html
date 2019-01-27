@@ -7,6 +7,17 @@
 	{{ range .Site.Params.portfolio.gallery }}
 		<div class="row">
 			<div class="col-xs-4" style="margin-left: 0.1em;">
+					<a href="{{ $.Site.BaseURL }}images/{{ .thumb8 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb8 }}" alt="" style="max-width: 20em;"/></a>
+			</div>
+			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
+					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url8 }} style="font-size:0.8em;">{{ .title8 | markdownify }}</a></h3>
+					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author8 | markdownify }} ({{ .year8 | markdownify }}), {{ .journal8 | markdownify }}</h4>
+					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description8 | markdownify }}</p>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url8 }}>doi</a> | <a href={{ .pdf_url8 }}>pdf</a> | <a href={{ .bib_url8 }}>bibtex</a></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4" style="margin-left: 0.1em;">
 					<a href="{{ $.Site.BaseURL }}images/{{ .thumb7 }}"><img src="{{ $.Site.BaseURL }}images/{{ .thumb7 }}" alt="" style="max-width: 20em;"/></a>
 			</div>
 			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
@@ -22,9 +33,9 @@
 			</div>
 			<div class="col-xs-8" style="margin-left: 2em;margin-right: -8em;">
 					<h3 style="max-width: 22em; line-height: 1.0em;margin-bottom: 0.5em;"><a href={{ .doi_url6 }} style="font-size:0.8em;">{{ .title6 | markdownify }}</a></h3>
-					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author6 | markdownify }} ({{ .year6 | markdownify }}), {{ .journal6 | markdownify }}</h4>
+					<h4 style="font-size:0.8em;margin-bottom: 1em;max-width: 30em">{{ .author6 | markdownify }} ({{ .year6 | markdownify }}), {{ .journal6 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description6 | markdownify }}</p>
-					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url6 }}>doi</a> | <a href={{ .pdf_url6 }}>pdf</a> | <a href={{ .bib_url6 }}>bibtex</a></h4>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url6 }}>doi</a> | <a href={{ .pdf_url6 }}>pdf</a> | <a href={{ .bib_url6 }}>bibtex</a> | <a href={{ .slides_url6 }}>slides</a></h4>
 			</div>
 		</div>
 		<div class="row">
@@ -35,7 +46,7 @@
 					<h3 style="max-width: 22em; line-height: 1em;margin-bottom: 0.5em;"><a href={{ .doi_url5 }} style="font-size:0.8em;">{{ .title5 | markdownify }}</a></h3>
 					<h4 style="font-size:0.8em;margin-bottom: 1em">{{ .author5 | markdownify }} ({{ .year5 | markdownify }}), {{ .journal5 | markdownify }}</h4>
 					<p style="margin-bottom: 0.5em; font-size: 0.8em; line-height: 1.5em;max-width: 31.75em">{{ .description5 | markdownify }}</p>
-					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url5 }}>doi</a> | <a href={{ .pdf_url5 }}>preprint</a> | <a href={{ .bib_url5 }}>bibtex</a></h4>
+					<h4 style="margin-bottom: 1.5em;"><a href={{ .doi_url5 }}>doi</a> | <a href={{ .pdf_url5 }}>pdf</a> | <a href={{ .bib_url5 }}>bibtex</a></h4>
 			</div>
 		</div>
 		<div class="row">
