@@ -45,13 +45,13 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "**Hi, I'm Jeremy.**"
-		content = "I'm a Ph.D. candidate in the [department of mechanical and aerospace engineering](http://maeweb.ucsd.edu/) at the [University of California San Diego](http://ucsd.edu). My research is advised by [Carlos Coimbra](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=324) and funded by the [San Diego Fellowship](https://grad.ucsd.edu/diversity/incoming-fellowships/sdf-cr-fellowships.html) and the [President's Dissertation Year Fellowship](https://grad.ucsd.edu/financial/fellowships/funding-opportunties/presidents-dissertation-year-fellowship-fletcher-jones.html). During my time with the [Coimbra Research Group](http://coimbra.ucsd.edu/) (CRG) I have been involved with a number of research projects such as resource-to-power modeling and high fidelity forecast generation for large-scale solar power plants, and the development of low-cost, rapidly deployable, self-sustaining [portable weather sensing stations](https://photos.google.com/share/AF1QipNpTO-wg1ZiwnDZPU1G_ZM6gj0-huyLOT3A2zw23cqiHEN935GVEvDb94tqdPFl2Q?key=anBRQm9pblp3dVBNMGl6SVZpWWh3LUs2VjZfUDN3). Sometimes I build robots [[1](https://youtu.be/HZC7KEO-Fjc?t=46), [2](https://www.youtube.com/watch?v=AT6fh77XeX8), [3](https://www.youtube.com/watch?v=z70l3OUy9N4)]. Over the Summer and Fall of 2016, I spent time working on bleeding edge semiconductor chip manufacturing technology at [Cymer/ASML](https://www.cymer.com/).<br><br> Outside of research, I mentor undergraduate students on their journey toward postgraduate study through the [STARS](https://grad.ucsd.edu/diversity/programs/stars/index.html) and [UC LEADS](https://www.ucop.edu/graduate-studies/initiatives-outreach/uc-leads.html) programs. In the past I have also worked with the [IDEA Scholars](http://jacobsschool.ucsd.edu/idea/programs/scholars.shtml) program and with high school outreach through the CRG."
+		content = "I'm a Ph.D. candidate in the [department of mechanical and aerospace engineering](http://maeweb.ucsd.edu/) at the [University of California San Diego](http://ucsd.edu). My research is advised by [Carlos Coimbra](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=324) and funded by the [San Diego Fellowship](https://grad.ucsd.edu/diversity/incoming-fellowships/sdf-cr-fellowships.html) and the [President's Dissertation Year Fellowship](https://grad.ucsd.edu/financial/fellowships/funding-opportunties/presidents-dissertation-year-fellowship-fletcher-jones.html). During my time with the [Coimbra Research Group](http://coimbra.ucsd.edu/) (CRG) I have been involved with a number of research projects such as resource-to-power modeling and high-fidelity forecast generation for large-scale solar power plants, and the development of low-cost, rapidly deployable, self-sustaining [portable weather sensing stations](https://photos.google.com/share/AF1QipNpTO-wg1ZiwnDZPU1G_ZM6gj0-huyLOT3A2zw23cqiHEN935GVEvDb94tqdPFl2Q?key=anBRQm9pblp3dVBNMGl6SVZpWWh3LUs2VjZfUDN3). Sometimes I build robots [[1](https://youtu.be/HZC7KEO-Fjc?t=46), [2](https://www.youtube.com/watch?v=AT6fh77XeX8), [3](https://www.youtube.com/watch?v=z70l3OUy9N4)]. Over the Summer and Fall of 2016, I spent time working on bleeding edge semiconductor chip manufacturing technology at [Cymer/ASML](https://www.cymer.com/).<br><br> Outside of research, I mentor undergraduate students on their journey toward postgraduate study through the [STARS](https://grad.ucsd.edu/diversity/programs/stars/index.html) and [UC LEADS](https://www.ucop.edu/graduate-studies/initiatives-outreach/uc-leads.html) programs. In the past I have also worked with the [IDEA Scholars](http://jacobsschool.ucsd.edu/idea/programs/scholars.shtml) program and with high school outreach through the CRG."
 
 
 	[params.portfolio]
 		hide  = false
 		title = "My research..."
-		content = "...takes place in the space of nonlocal operators and variable order dynamics. My interests include identification, control, and stability; non-convex optimization; and condensed matter systems.<br><br> Currently, my research efforts are directed toward the development of efficient numerical methods for the solution of variable order differential equations and the description of macroscopic emergence in semi-disordered condensed matter systems using generalized differential models."
+		content = "... takes place in the space of nonlocal operators and variable order dynamics. My interests include identification, control, and stability; non-convex optimization; and condensed matter systems.<br><br> Currently, my research efforts are directed toward the development of efficient numerical methods for the solution of variable order differential equations and the description of macroscopic emergence in semi-disordered condensed matter systems using generalized differential models."
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -59,10 +59,10 @@ paginate = 10
 
 			# forthcoming
 			thumb8 = "thumbs/paper_thumb_8.png"
-			title8 = "Nonlocal correlation for the spectral thermophysical response of multivalent conductors"
+			title8 = "Spectroscopic thermal dependence of optical and radiative properties for platinum in the infrared"
 			author8 = "J. Orosco and C. F. M. Coimbra"
 			journal8 = ""
-			year8 = "forthcoming: 25%"
+			year8 = "forthcoming: 99%"
 			doi_url8 = "http://acsweb.ucsd.edu/~jrorosco/"
 			pdf_url8 = "http://acsweb.ucsd.edu/~jrorosco/"
 			bib_url8 = "http://acsweb.ucsd.edu/~jrorosco/"
@@ -73,7 +73,7 @@ paginate = 10
 			title7 = "Temperature-dependent carrier transport: low-complexity model for the infrared optical and radiative properties of nickel"
 			author7 = "J. Orosco and C. F. M. Coimbra"
 			journal7 = ""
-			year7 = "forthcoming: 90%"
+			year7 = "under review"
 			doi_url7 = "http://acsweb.ucsd.edu/~jrorosco/"
 			pdf_url7 = "http://acsweb.ucsd.edu/~jrorosco/"
 			bib_url7 = "http://acsweb.ucsd.edu/~jrorosco/"
@@ -100,7 +100,7 @@ paginate = 10
 			doi_url5 = "https://doi.org/10.1103/PhysRevB.98.235118"
 			pdf_url5 = "files/2018d_Orosco_Coimbra.pdf"
 			bib_url5 = "files/2018d_Orosco_Coimbra.bib"
-			description5 = "A robust, high fidelity model is derived for correlating measurements of the broadband infrared optical response of metals. Anomalous dynamics are introduced as a correction to the local field that accounts for diffusive perturbations subscribing to a non-Markovian relaxation. Examples are given for several metals of engineering significance."
+			description5 = "A robust, high-fidelity model is derived for correlating measurements of the broadband infrared optical response of metals. Anomalous dynamics are introduced as a correction to the local field that accounts for diffusive perturbations subscribing to a non-Markovian relaxation. Examples are given for several metals of engineering significance."
 
 			# Physical Review E (2018)
 			thumb4 = "thumbs/paper_thumb_4.png"
