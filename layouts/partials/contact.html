@@ -7,7 +7,7 @@
 	<div class="row" id="contact-form">
 		{{ if (isset .Site.Params.contact "email") | and (gt (len .Site.Params.contact.email) 0) }}
 		<div class="8u 12u$(small)">
-			<form action="//formspree.io/{{ .Site.Params.contact.email }}" method="POST">
+<!-- 			<form action="//formspree.io/{{ .Site.Params.contact.email }}" method="POST">
 				<div class="row uniform 50%">
 					<input type="hidden" name="_subject" value="New email from your portfolio" />
 					<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="{{ .Site.Params.contact.form.name }}" required/></div>
@@ -19,6 +19,26 @@
 						<li><input type="submit" value="{{ .Site.Params.contact.form.submit }}" /></li>
 					</ul>
 				</div>
+			</form> -->
+			<form name="contact" method="POST" data-netlify="true">
+			  <p>
+			    <label>Your Name: <input type="text" name="name" /></label>   
+			  </p>
+			  <p>
+			    <label>Your Email: <input type="email" name="email" /></label>
+			  </p>
+			  <p>
+			    <label>Your Role: <select name="role[]" multiple>
+			      <option value="leader">Leader</option>
+			      <option value="follower">Follower</option>
+			    </select></label>
+			  </p>
+			  <p>
+			    <label>Message: <textarea name="message"></textarea></label>
+			  </p>
+			  <p>
+			    <button type="submit">Send</button>
+			  </p>
 			</form>
 		</div>
 		{{ else }}
