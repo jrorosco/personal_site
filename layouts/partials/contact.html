@@ -21,24 +21,29 @@
 				</div>
 			</form> -->
 			<form name="contact" method="POST" data-netlify="true">
-			  <p>
+								<div class="row uniform 50%">
+					<input type="hidden" name="_subject" value="New email from your portfolio" />
+					<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="{{ .Site.Params.contact.form.name }}" required/></div>
+					<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" name="email" id="email" placeholder="{{ .Site.Params.contact.form.email }}" required/></div>
+					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}" rows="4" required></textarea></div>
+					<input type="text" name="_gotcha" style="display:none" />
+					<input type="hidden" name="_next" value="{{ $.Site.BaseURL }}#contact-form" />
+					<ul class="actions">
+						<li><input type="submit" value="{{ .Site.Params.contact.form.submit }}" /></li>
+					</ul>
+				</div>
+<!-- 			  <p>
 			    <label>Name: <input type="text" name="name" /></label>   
 			  </p>
 			  <p>
 			    <label>Email: <input type="email" name="email" /></label>
 			  </p>
-<!-- 			  <p>
-			    <label>Your Role: <select name="role[]" multiple>
-			      <option value="leader">Leader</option>
-			      <option value="follower">Follower</option>
-			    </select></label>
-			  </p> -->
 			  <p>
 			    <label>Message: <textarea name="message"></textarea></label>
 			  </p>
 			  <p>
 			    <button type="submit">Send</button>
-			  </p>
+			  </p> -->
 			</form>
 		</div>
 		{{ else }}
