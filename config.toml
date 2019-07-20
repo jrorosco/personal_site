@@ -11,7 +11,7 @@ paginate = 10
 [params]
 	# Metadata
 	name = "Jeremy Orosco"
-	description = "This is a personal website for Jeremy Orosco, a graduate student at UC San Diego."
+	description = "This is a personal website for Jeremy Orosco, a Postdoctoral Scholar at UC San Diego."
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -220,7 +220,7 @@ paginate = 10
 	url="mailto:sms@jeremyorosco.com"
 	weight = 30
 
-[[menu.main]]
-	name = "Blog"
-	url  = "post/"
-	weight = 10
+#[[menu.main]]
+#	name = "Blog"
+#	url  = "post/"
+#	weight = 10
