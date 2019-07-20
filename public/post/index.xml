@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jeremy Orosco</title>
-    <link>https://www.jeremyorosco.info/post/</link>
+    <link>http://acsweb.ucsd.edu/~jrorosco/post/</link>
     <description>Recent content in Posts on Jeremy Orosco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jan 2017 13:22:44 -0800</lastBuildDate>
     
-	<atom:link href="https://www.jeremyorosco.info/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://acsweb.ucsd.edu/~jrorosco/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>test post</title>
-      <link>https://www.jeremyorosco.info/post/test-post/</link>
+      <link>http://acsweb.ucsd.edu/~jrorosco/post/test-post/</link>
       <pubDate>Mon, 23 Jan 2017 13:22:44 -0800</pubDate>
       
-      <guid>https://www.jeremyorosco.info/post/test-post/</guid>
+      <guid>http://acsweb.ucsd.edu/~jrorosco/post/test-post/</guid>
       <description></description>
     </item>
     
