@@ -26,8 +26,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.jeremyorosco.info/confirmation/</guid>
-      <description>s {{ partial &#34;header.html&#34; . }} {{ partial &#34;subheader.html&#34; . }} Thanks! Your email has been sent. I&#39;ll get back to you as soon as time permits.
-Head Home. {{ partial &#34;footer.html&#34; . }} </description>
+      <description>Jeremy Orosco     Jeremy Orosco  email   sms   cv   google scholar   github      Thanks! Your email has been sent. I&#39;ll get back to you as soon as time permits.
+Head Home.   &amp;copy; Jeremy Orosco Design: HTML5 UP        var doNotTrack = false; if (!doNotTrack) { window.</description>
     </item>
     
   </channel>

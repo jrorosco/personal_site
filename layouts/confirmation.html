@@ -1,0 +1,24 @@
+{{ partial "head" . }}
+    <body id="top">
+        {{ partial "header" . }}
+
+        {{ "<!-- Main -->" | safeHTML }}
+        <div id="main">
+            
+    <section>
+        <h1>Thanks!</h1>
+
+        <p>Your email has been sent. I'll get back to you as soon as time permits.</p>
+
+        <h1>Head <a href="{{ .Site.BaseURL }}">Home</a>.</h1>
+    </section>
+
+    
+
+        </div>
+
+        {{ partial "footer" . }}
+    </body>
+</html>
+
+       
