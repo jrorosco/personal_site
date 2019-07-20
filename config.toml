@@ -39,7 +39,7 @@ paginate = 10
 
 		copyright = [
 			"&copy; Jeremy Orosco",
-			"Design: [HTML5 UP](//html5up.net)"
+			"Design: [HTML5 UP](//html5up.net)",
 			"Workflow: [Netlify](//netlify.com/)"
 		]
 
