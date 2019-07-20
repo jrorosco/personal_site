@@ -65,9 +65,9 @@ paginate = 10
             author9 = "J. Orosco and C. F. M. Coimbra"
             journal9 = ""
             year9 = "forthcoming: 65%"
-            doi_url9 = "{{ .Site.BaseURL }}"
-            pdf_url9 = "{{ .Site.BaseURL }}"
-            bib_url9 = "{{ .Site.BaseURL }}"
+            doi_url9 = "https://www.jeremyorosco.info"
+            pdf_url9 = "https://www.jeremyorosco.info"
+            bib_url9 = "https://www.jeremyorosco.info"
             description9 = ""
 
 			# submitted
@@ -76,9 +76,9 @@ paginate = 10
 			author8 = "J. Orosco and C. F. M. Coimbra"
 			journal8 = ""
 			year8 = "under review"
-			doi_url8 = "{{ .Site.BaseURL }}"
-			pdf_url8 = "{{ .Site.BaseURL }}"
-			bib_url8 = "{{ .Site.BaseURL }}"
+			doi_url8 = "https://www.jeremyorosco.info"
+			pdf_url8 = "https://www.jeremyorosco.info"
+			bib_url8 = "https://www.jeremyorosco.info"
 			description8 = ""
 
 			# Journal of Applied Physics (2019)

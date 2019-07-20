@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://acsweb.ucsd.edu/~jrorosco/</loc>
+    <loc>https://www.jeremyorosco.info/</loc>
     <lastmod>2017-01-23T13:22:44-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acsweb.ucsd.edu/~jrorosco/post/</loc>
+    <loc>https://www.jeremyorosco.info/post/</loc>
     <lastmod>2017-01-23T13:22:44-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acsweb.ucsd.edu/~jrorosco/post/test-post/</loc>
+    <loc>https://www.jeremyorosco.info/post/test-post/</loc>
     <lastmod>2017-01-23T13:22:44-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://acsweb.ucsd.edu/~jrorosco/confirmation/</loc>
+    <loc>https://www.jeremyorosco.info/confirmation/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acsweb.ucsd.edu/~jrorosco/categories/</loc>
+    <loc>https://www.jeremyorosco.info/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://acsweb.ucsd.edu/~jrorosco/tags/</loc>
+    <loc>https://www.jeremyorosco.info/tags/</loc>
     <priority>0</priority>
   </url>
   

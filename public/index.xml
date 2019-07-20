@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeremy Orosco</title>
-    <link>http://acsweb.ucsd.edu/~jrorosco/</link>
+    <link>https://www.jeremyorosco.info/</link>
     <description>Recent content on Jeremy Orosco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jan 2017 13:22:44 -0800</lastBuildDate>
     
-	<atom:link href="http://acsweb.ucsd.edu/~jrorosco/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jeremyorosco.info/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>test post</title>
-      <link>http://acsweb.ucsd.edu/~jrorosco/post/test-post/</link>
+      <link>https://www.jeremyorosco.info/post/test-post/</link>
       <pubDate>Mon, 23 Jan 2017 13:22:44 -0800</pubDate>
       
-      <guid>http://acsweb.ucsd.edu/~jrorosco/post/test-post/</guid>
+      <guid>https://www.jeremyorosco.info/post/test-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://acsweb.ucsd.edu/~jrorosco/confirmation/</link>
+      <link>https://www.jeremyorosco.info/confirmation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://acsweb.ucsd.edu/~jrorosco/confirmation/</guid>
+      <guid>https://www.jeremyorosco.info/confirmation/</guid>
       <description>{{ partial &#34;head&#34; . }} {{ partial &#34;header&#34; . }} {{ &#34;&#34; | safeHTML }}  Thanks! Your email has been sent. I&#39;ll get back to you as soon as time permits.
 Back to home page.
   {{ partial &#34;footer&#34; . }}   </description>
