@@ -220,7 +220,7 @@ paginate = 10
 	url="mailto:sms@jeremyorosco.com"
 	weight = 30
 
-#[[menu.main]]
-#	name = "Blog"
-#	url  = "post/"
-#	weight = 10
+[[menu.main]]
+	name = "Blog"
+	url  = "post/"
+	weight = 10
