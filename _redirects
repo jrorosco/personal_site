@@ -1,0 +1,2 @@
+# redirect netlify subdomain to .info domain
+https://jeremyorosco-info.netlify.com/* https://www.jeremyorosco.info/:splat 301!
