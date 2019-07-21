@@ -218,7 +218,7 @@ paginate = 10
 
 [[menu.main]]
 	name = "sms"
-	url="mailto:sms@jeremyorosco.com"
+	url="mailto:sms@jeremyorosco.info"
 	weight = 30
 
 #[[menu.main]]
