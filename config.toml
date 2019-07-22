@@ -70,12 +70,12 @@ paginate = 10
             bib_url9 = "https://www.jeremyorosco.info"
             description9 = ""
 
-			# submitted
+			# International Journal of Heat and Mass Transfer (2019)
 			thumb8 = "thumbs/paper_thumb_8.png"
 			title8 = "Temperature-dependent infrared optical and radiative properties of platinum"
 			author8 = "J. Orosco and C. F. M. Coimbra"
-			journal8 = ""
-			year8 = "under review"
+			journal8 = "International Journal of Heat and Mass Transfer"
+			year8 = "accepted: in press"
 			doi_url8 = "https://www.jeremyorosco.info"
 			pdf_url8 = "https://www.jeremyorosco.info"
 			bib_url8 = "https://www.jeremyorosco.info"
