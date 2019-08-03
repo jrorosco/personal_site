@@ -79,6 +79,7 @@ paginate = 10
 			doi_url8 = "https://doi.org/10.1016/j.ijheatmasstransfer.2019.118471"
 			pdf_url8 = "files/2019c_Orosco_Coimbra.pdf"
 			bib_url8 = "files/2019c_Orosco_Coimbra.bib"
+			matlab_url8 = "files/platinum_model.m"
 			description8 = "A temperature-dependent Gauss-Lorentz interband oscillator is defined and combined with a previously proposed temperature-dependent anomalous intraband component in order to arrive at a spectral thermophysical model for the infrared optical and radiative properties of platinum. Validation is obtained in terms of the Planck-weighted radiative properties."
 
 			# Journal of Applied Physics (2019)
