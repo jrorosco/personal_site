@@ -78,7 +78,7 @@ paginate = 10
             doi_url9 = "https://doi.org/10.1103/PhysRevLett.125.184504"
             pdf_url9 = "files/2020_Connacher_Orosco_Friend.pdf"
             bib_url9 = "files/2020_Connacher_Orosco_Friend.bib"
-            description9 = ""
+            description9 = "We demonstrate ultrasonically-driven nozzle-free ejection of droplets from a sessile parent at controlled angles beyond the Rayleigh angle. A low-complexity model is derived that accurately predicts ejection over a range of angles, media, and forcing parameters. A nondimensional number is described that characterizes the critical ejection threshold."
 
 			# International Journal of Heat and Mass Transfer (2019)
 			thumb8 = "thumbs/paper_thumb_8.png"
