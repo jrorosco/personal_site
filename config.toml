@@ -59,14 +59,25 @@ paginate = 10
 		[[params.portfolio.gallery]]
 
             # forthcoming
+            thumb10 = "thumbs/paper_thumb_10.png"
+            title10 = "Simple expression for low-expense approximation of the Bloch-Grüneisen intrinsic resistivity"
+            author10 = "J. Orosco and C. F. M. Coimbra"
+            journal10 = ""
+            year10 = "forthcoming: 75%"
+            doi_url10 = "https://www.jeremyorosco.info"
+            pdf_url10 = "https://www.jeremyorosco.info"
+            bib_url10 = "https://www.jeremyorosco.info"
+            description10 = ""
+
+            # forthcoming
             thumb9 = "thumbs/paper_thumb_9.png"
-            title9 = "Simple expression for low-expense approximation of the Bloch-Grüneisen intrinsic resistivity"
-            author9 = "J. Orosco and C. F. M. Coimbra"
-            journal9 = ""
-            year9 = "forthcoming: 75%"
-            doi_url9 = "https://www.jeremyorosco.info"
-            pdf_url9 = "https://www.jeremyorosco.info"
-            bib_url9 = "https://www.jeremyorosco.info"
+            title9 = "Droplet Ejection at Controlled Angles via Acoustofluidic Jetting"
+            author9 = "W. Connacher, J. Orosco, and C. F. M. Coimbra"
+            journal9 = "Physical Review Letters"
+            year9 = "2020"
+            doi_url9 = "https://doi.org/10.1103/PhysRevLett.125.184504"
+            pdf_url9 = "files/2020_Connacher_Orosco_Friend.pdf"
+            bib_url9 = "files/2020_Connacher_Orosco_Friend.bib"
             description9 = ""
 
 			# International Journal of Heat and Mass Transfer (2019)
